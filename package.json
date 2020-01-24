@@ -13,7 +13,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "install": "npm install",
+    "preinstall": "npm install",
     "start": "node server",
     "postinstall": "npm run build",
     "build": "react-scripts build",
